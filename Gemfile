@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
@@ -38,4 +37,6 @@ gem 'jbuilder', '~> 1.0.1'
 # To use debugger
 # gem 'debugger'
 
-
+group :production do
+  ruby '2.0.0'
+end
